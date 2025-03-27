@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Controlled Humanoid Robot</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/robot/cool_11184298.png">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #303032;
+            color: #e4e4e4;
+            line-height: 1.6;
+        }
+        
+        .info-main {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        
+        .project-info {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .main-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .feature-main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature {
+            width: 100%;
+            border-radius: 6px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: scale(1.02);
+        }
+
+        .image-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #a0a0a0;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .feature-main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="info-main">
+        <h1>Arduino controlled humanoid robot</h1>
+        
+        <img src="/robot/hero.jpg" alt="404" class="main-image">
+
+        <div class="project-info">
+            <h2>Overview</h2>
+            <p>This robot is controlled by an Arduino Uno and powered by multiple servo motors, which are managed using a PCA9685 16-Channel Servo Controller. The robot's movement is controlled through code, which is likely stored on a computer and executed via the Arduino.
+                The servo motors are connected to the PCA9685 Servo Controller, which in turn is connected to the Arduino Uno. The servo motors receive power from an external source, such as a battery pack, ensuring they have sufficient energy to operate efficiently.</p>
+
+            <div class="feature-main">
+                <div>
+                    <img src="/robot/IMG_20250124_020522.jpg" alt="404" class="feature">
+                    <p class="image-caption">Arduino Uno</p>
+                </div>
+                <div>
+                    <img src="/robot/IMG_20250124_020526.jpg" alt="404" class="feature">
+                    <p class="image-caption">PCA9685 16-Channel Servo Controller</p>
+                </div>
+                <div>
+                    <img src="/robot/IMG_20250124_110128.jpg" alt="404" class="feature">
+                    <p class="image-caption">Servo testing with Arduino Uno, PCA9685, and external power</p>
+                </div>
+                <div>
+                    <img src="/robot/IMG_20250124_110100.jpg" alt="404" class="feature">
+                    <p class="image-caption">Again servo testing with Arduino Uno, PCA9685, and external power</p>
+                </div>
+                <div>
+                    <video src="/robot/VID_20250125_020949.mkv" controls muted class="feature"></video>
+                    <p class="image-caption">Dancing robot with Arduino and PCA9685</p>
+                </div>
+                <div>
+                    <video src="/robot/VID_20250125_022357.mkv" controls muted class="feature"></video>
+                    <p class="image-caption">Dancing robot with Arduino and PCA9685</p>
+                </div>
+            </div>
+
+            <h2>Technologies</h2>
+            <p>PCA9685 16-Channel Servo Controller | Arduino Uno | Servo motores</p>
+            
+            <div style="margin: 25px 0; display: flex; justify-content: center; gap: 30px;">
+                <img src="/robot/51Wk-wc37oL.jpg" alt="404" style="height: 85px;">
+                <img src="/robot/DFR0181.jpg" alt="404" style="height: 85px;">
+                <img src="/robot/Screenshot From 2025-02-12 20-30-17.png" alt="404" style="height: 85px;">
+            </div>
+
+            <a href="/index.html" style="display: inline-block; margin-top: 20px; color: #7d8fff; text-decoration: none;">← Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
