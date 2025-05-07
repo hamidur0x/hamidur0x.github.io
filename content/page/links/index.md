@@ -2,90 +2,56 @@
 title: About
 menu:
     main:
-        weight: 4
+        weight: 2
         params:
             icon: user
 
 comments: false
 ---
 
-<div style="float: left; margin-right: 30px;">
-  <img src="main.png" alt="Profile Picture" style="width:200px; height:200px; border-radius: 50%; border: 4px solid #ddd;">
+<div style="float: left; margin-right: 30px; transition: transform 0.3s ease;">
+  <img src="main.png" alt="Profile Picture" style="width:200px; height:200px; border-radius: 50%; border: 4px solid #ddd; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
 </div>
 
 # About Me
 
-Hello! I’m **Hamidur Rahman**, an aspiring software engineer and cybersecurity enthusiast from **Bangladesh**. I am currently pursuing a **Diploma in Computer Science and Technology** at **Munshiganj Polytechnic Institute**. Here’s a bit about me and my journey so far.
+I’m **Md Hamidur Rahman**, an 18-year-old **Technology Innovation Lead** at **Chintachokro** and a **Rover** at the **Munshigonj Polytechnic Institute Rover Scout Group**. I also serve as an **Executive Member** of the **MUPI Computer Club**.
+
+I am a student with a strong interest in **cybersecurity**, particularly in **web security** and **penetration testing**. I love to develop **applications and websites**, focusing on enhancing functionality and security.  
+
+In addition to my passion for security, I am also deeply involved in **UI/UX design**, where I specialize in creating **user-centered interfaces** and crafting intuitive, engaging experiences. I strive for simplicity and clarity in design, ensuring that every interaction is functional and user-friendly. My design work focuses on a minimalist, clean aesthetic with an emphasis on usability.
+
+My **Python development** skills are focused on building **dynamic web applications** using frameworks like **Django** and **Flask**. I prioritize writing **clean, secure, and scalable** code, and I constantly look for ways to improve the efficiency and maintainability of my projects.
+
+Outside of development, I am a passionate **graphic designer** with experience in **Photoshop** and digital design tools. I create designs that are impactful, modern, and well-crafted, ranging from brand identities to digital illustrations. I love combining creativity with functionality to produce designs that resonate.
+
+Here are my key interests:  
+- **Cyber Security**  
+- **Web Application Security Researcher**  
+- **Software Development**  
+- **UI/UX Design**  
+- **Python Developer**  
+- **Graphic Designer**  
+
+I’m passionate about **sharing my knowledge and experience** through writings, which you’ll find scattered across this website. I also enjoy **traveling** and have been fortunate enough to visit many countries.  
+
+I am quite interested in **startups** and believe they have the potential to create value in unique ways. As the saying goes, “**Move fast and break things**”—and that’s why I’m working in one right now! The startup environment is dynamic, and I’m loving the steep learning curve.
 
 ---
 
-## 🎓 Education
+# 🎓 Education
 
 - **Diploma in Engineering**  
   **Munshiganj Polytechnic Institute**  
   _2024 – Present_  
-  Currently pursuing a diploma in **Computer Science and Technology** with the goal of becoming a proficient software engineer and ethical hacker.
-
-- **Secondary School Certificate (SSC)**  
-  **Shamganj High School**  
-  _2018 – 2023_  
-  Graduated with a GPA of **4.61** in the science group, which laid the foundation for my academic growth.
-
-- **Primary School Certificate (PSC)**  
-  **Mujata Govt. Primary School**  
-  _2012 – 2017_  
-  Graduated with a perfect GPA of **5.00**, marking the start of my academic journey.
+  Enrolled in a diploma program in **Computer Science and Technology** with the goal of becoming a proficient software engineer and ethical hacker.
 
 ---
 
-## 📍 Personal Information
+# 📍 Contact Information
 
 - **Country:** Bangladesh  
-- **City:** Jamalpur  
-- **Village:** Nalka  
+- **City:** Dhaka  
 - **Post Code:** 2051  
 - **Email:** [hamidursohan10@gmail.com](mailto:hamidursohan10@gmail.com)  
-- **Phone:** 01738******  
-
----
-
-## 🛡️ Cybersecurity
-
-**Web Vulnerability Explorer**  
-As a cybersecurity enthusiast, I focus on identifying web application vulnerabilities to enhance my knowledge and skills in **ethical hacking**.  
-[Read more](#)
-
----
-
-## 🌐 Web Development
-
-**HTML, CSS, JavaScript**  
-Passionate about creating responsive, user-friendly websites and web applications. I enjoy exploring new technologies and constantly learning to improve both my **front-end** and **back-end** skills.  
-[Read more](#)
-
----
-
-
-## 🐍 Python Development
-
-**Python Web Development**  
-Focused on building dynamic and scalable web applications using **Django** and **Flask**. I am committed to writing clean code and enhancing security.  
-[Read more](#)
-
----
-
-## 🖌️ UI/UX Design
-
-**User Experience & Interface Design**  
-I specialize in designing **user-centered** interfaces that are both functional and aesthetically pleasing. My goal is to create intuitive and engaging user experiences.  
-[Read more](#)
-
----
-
-## 🎨 Graphic Design
-
-**Photoshop & Digital Design**  
-I am a creative graphic designer with expertise in **Photoshop** and other design tools. I love creating impactful designs ranging from digital illustrations to brand identity.  
-[Read more](#)
-
----
+- **Phone:** 01738******
