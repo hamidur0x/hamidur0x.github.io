@@ -26,7 +26,9 @@ headingAnchor = false
 math = false
 readingTime = true
 
-
+[article.license]
+enabled = true
+default = "hamidur0x"
 
 ## Widgets
 [[widgets.homepage]]
