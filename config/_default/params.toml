@@ -26,9 +26,7 @@ headingAnchor = false
 math = false
 readingTime = true
 
-[article.license]
-enabled = true
-default = ""
+
 
 ## Widgets
 [[widgets.homepage]]
