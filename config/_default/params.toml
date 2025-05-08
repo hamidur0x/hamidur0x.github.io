@@ -10,7 +10,7 @@ customText = ""
 
 [dateFormat]
 published = "May 8, 2025"
-lastUpdated = "May 8, 15:04 GDT"
+lastUpdated = "May 8, 15:04 UTC+6"
 
 [sidebar]
 emoji = "😁"
