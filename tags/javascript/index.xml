@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on Hamidur Rahman</title><link>https://hamidur0x.github.io/tags/javascript/</link><description>Recent content in JavaScript on Hamidur Rahman</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 14:00:00 +0000</lastBuildDate><atom:link href="https://hamidur0x.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Fun with HTML &amp; CSS Creative Web Projects</title><link>https://hamidur0x.github.io/p/fun_projects/</link><pubDate>Wed, 01 May 2024 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/fun_projects/</guid><description>&lt;img src="https://hamidur0x.github.io/p/fun_projects/gif.gif" alt="Featured image of post Fun with HTML &amp; CSS Creative Web Projects" />&lt;style>
+.collab-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
+margin-top: 20px;
+}
+.collab-grid img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.collab-grid img:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+&lt;/style>
+&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>A bunch of fun and quirky web projects made with just HTML and CSS and a little bit of JavaScript! These creations are all about experimenting with design and adding a little fun to the web.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/2.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/2_hu_99eb62d75ae53f95.png 480w, https://hamidur0x.github.io/p/fun_projects/2_hu_5d751e95a4b9718c.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/3.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/3_hu_4a27ef21940f71b2.png 480w, https://hamidur0x.github.io/p/fun_projects/3_hu_e9280e1908f04402.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/4.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/4_hu_b9eb573d4fe846ba.png 480w, https://hamidur0x.github.io/p/fun_projects/4_hu_3ec9e0fd9a1fd73a.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;div class="collab-grid">
+&lt;img src="5.png" alt="Project 5">
+&lt;img src="6.png" alt="Project 6">
+&lt;img src="7.png" alt="Project 7">
+&lt;img src="8.png" alt="Project 8">
+&lt;img src="9.png" alt="Project 9">
+&lt;/div>
+&lt;hr>
+&lt;h2 id="website-links">Website Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/confession/" target="_blank" rel="noopener"
+>Project 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/valentine/" target="_blank" rel="noopener"
+>Project 2&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>My Built Websites</title><link>https://hamidur0x.github.io/p/web_projects/</link><pubDate>Wed, 01 May 2024 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/web_projects/</guid><description>&lt;img src="https://hamidur0x.github.io/p/web_projects/hel.png" alt="Featured image of post My Built Websites" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>Those are my websites, built using HTML,CSS and JAVASCRIPT. It showcases my skills with a clean and simple design, reflecting my journey as a web developer. This website serves as a foundation for more advanced projects in the future&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/1.png"
+width="1919"
+height="878"
+srcset="https://hamidur0x.github.io/p/web_projects/1_hu_8c8e687884c08326.png 480w, https://hamidur0x.github.io/p/web_projects/1_hu_648364fbed9982de.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="524px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/2.png"
+width="1664"
+height="868"
+srcset="https://hamidur0x.github.io/p/web_projects/2_hu_3e792dba290902eb.png 480w, https://hamidur0x.github.io/p/web_projects/2_hu_79eea67106fc5846.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/3.png"
+width="1653"
+height="855"
+srcset="https://hamidur0x.github.io/p/web_projects/3_hu_556442eb449c29b6.png 480w, https://hamidur0x.github.io/p/web_projects/3_hu_c04b8ffec640e187.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="193"
+data-flex-basis="464px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/4.png"
+width="1779"
+height="866"
+srcset="https://hamidur0x.github.io/p/web_projects/4_hu_fef46ac397d401c8.png 480w, https://hamidur0x.github.io/p/web_projects/4_hu_4b520b549951f15f.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="205"
+data-flex-basis="493px"
+>
+&lt;img src="https://hamidur0x.github.io/p/web_projects/12.png"
+width="1903"
+height="876"
+srcset="https://hamidur0x.github.io/p/web_projects/12_hu_4cf3c46809c74482.png 480w, https://hamidur0x.github.io/p/web_projects/12_hu_a44065a316b80ed9.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="521px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/13.png"
+width="1906"
+height="873"
+srcset="https://hamidur0x.github.io/p/web_projects/13_hu_8a1269c82f9ede29.png 480w, https://hamidur0x.github.io/p/web_projects/13_hu_9632fac89984e646.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="523px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="website-links">Website Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/basic_website/" target="_blank" rel="noopener"
+>Project 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/my_website1/" target="_blank" rel="noopener"
+>Project 2&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/my_website2/" target="_blank" rel="noopener"
+>Project 3&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/website3/" target="_blank" rel="noopener"
+>Project 4&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
