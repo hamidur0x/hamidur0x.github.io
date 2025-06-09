@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programing on Hamidur Rahman</title><link>https://hamidur0x.github.io/categories/programing/</link><description>Recent content in Programing on Hamidur Rahman</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://hamidur0x.github.io/categories/programing/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Skills Competition Calculator making</title><link>https://hamidur0x.github.io/p/asset-skills-competition/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/asset-skills-competition/</guid><description>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/calculator.jpg" alt="Featured image of post Asset Skills Competition Calculator making" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This code was developed as part of the Asset Skills Competition held at Munshigonj Polytechnic Institute. It showcases problem-solving skills, technical expertise, and innovative thinking. The implementation demonstrates efficient logic and structured programming, adhering to competition standards&lt;/p>
+&lt;hr>
+&lt;h2 id="project-image">Project Image
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/asset_2025.jpg"
+width="420"
+height="551"
+srcset="https://hamidur0x.github.io/p/asset-skills-competition/asset_2025_hu_35d20209d510d816.jpg 480w, https://hamidur0x.github.io/p/asset-skills-competition/asset_2025_hu_9f6ceaa1fa18a968.jpg 1024w"
+loading="lazy"
+alt=" "
+class="gallery-image"
+data-flex-grow="76"
+data-flex-basis="182px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="certificate">Certificate
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/com1.jpg"
+width="2868"
+height="2130"
+srcset="https://hamidur0x.github.io/p/asset-skills-competition/com1_hu_9bb490f87eb16627.jpg 480w, https://hamidur0x.github.io/p/asset-skills-competition/com1_hu_9ed966f1945d8b.jpg 1024w"
+loading="lazy"
+alt=" "
+class="gallery-image"
+data-flex-grow="134"
+data-flex-basis="323px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="code">Code
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;span class="lnt">75
+&lt;/span>&lt;span class="lnt">76
+&lt;/span>&lt;span class="lnt">77
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">import math
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">def click(val):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> e=entry.get()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=&amp;#34; &amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> try:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if val==&amp;#34;C&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> e=e[:-1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,e)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> return
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;AC&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;x\u00B2&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)**2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;x\u00B3&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)**3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;Root&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=math.sqrt(eval(e))
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val== &amp;#34;Pi&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=math.pi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;=&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> else:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(&amp;#34;end&amp;#34;,val)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> return
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,ans)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> except(ZeroDivisionError,ValueError,SyntaxError):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,&amp;#34;Error&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root=tkinter.Tk()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.title(&amp;#34;Calculator&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.config(bg=&amp;#34;gray7&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.geometry(&amp;#34;400x500+600+100&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">entry=tkinter.Entry(root,font=(&amp;#34;arial&amp;#34;,25,&amp;#34;bold&amp;#34;),bg=&amp;#34;white&amp;#34;,fg=&amp;#34;black&amp;#34;,width=20,bd=10)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">entry.grid(column=0,row=0,columnspan=8)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">button_list=[&amp;#34;AC&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;x\u00B2&amp;#34;,&amp;#34;x\u00B3&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;,&amp;#34;+&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;4&amp;#34;,&amp;#34;5&amp;#34;,&amp;#34;6&amp;#34;,&amp;#34;-&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;7&amp;#34;,&amp;#34;8&amp;#34;,&amp;#34;9&amp;#34;,&amp;#34;*&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;.&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;%&amp;#34;,&amp;#34;/&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ,&amp;#34;Root&amp;#34;,&amp;#34;Pi&amp;#34; ,&amp;#34;=&amp;#34;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">c=0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">r=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for i in button_list:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if i in [&amp;#34;+&amp;#34;,&amp;#34;-&amp;#34;,&amp;#34;*&amp;#34;,&amp;#34;/&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;blue&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;AC&amp;#34;,&amp;#34;C&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;red&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;.&amp;#34;,&amp;#34;%&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;gray&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;=&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;green&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> else:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;pink&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> button=tkinter.Button(root,bg=back,fg=&amp;#34;black&amp;#34;,text=i,command=lambda button=i:click(button),bd=10,width=4,height=1,font=(&amp;#34;arial&amp;#34;,15,&amp;#34;bold&amp;#34;))
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> button.grid(column=c,row=r,padx=5,pady=5)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> c+=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if c&amp;gt;3:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> r+=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> c=0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.mainloop()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr></description></item></channel></rss>

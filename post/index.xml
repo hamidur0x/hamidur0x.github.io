@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hamidur Rahman</title><link>https://hamidur0x.github.io/post/</link><description>Recent content in Posts on Hamidur Rahman</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://hamidur0x.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Skills Competition Calculator making</title><link>https://hamidur0x.github.io/p/asset-skills-competition/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/asset-skills-competition/</guid><description>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/calculator.jpg" alt="Featured image of post Asset Skills Competition Calculator making" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This code was developed as part of the Asset Skills Competition held at Munshigonj Polytechnic Institute. It showcases problem-solving skills, technical expertise, and innovative thinking. The implementation demonstrates efficient logic and structured programming, adhering to competition standards&lt;/p>
+&lt;hr>
+&lt;h2 id="project-image">Project Image
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/asset_2025.jpg"
+width="420"
+height="551"
+srcset="https://hamidur0x.github.io/p/asset-skills-competition/asset_2025_hu_35d20209d510d816.jpg 480w, https://hamidur0x.github.io/p/asset-skills-competition/asset_2025_hu_9f6ceaa1fa18a968.jpg 1024w"
+loading="lazy"
+alt=" "
+class="gallery-image"
+data-flex-grow="76"
+data-flex-basis="182px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="certificate">Certificate
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/asset-skills-competition/com1.jpg"
+width="2868"
+height="2130"
+srcset="https://hamidur0x.github.io/p/asset-skills-competition/com1_hu_9bb490f87eb16627.jpg 480w, https://hamidur0x.github.io/p/asset-skills-competition/com1_hu_9ed966f1945d8b.jpg 1024w"
+loading="lazy"
+alt=" "
+class="gallery-image"
+data-flex-grow="134"
+data-flex-basis="323px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="code">Code
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;span class="lnt">75
+&lt;/span>&lt;span class="lnt">76
+&lt;/span>&lt;span class="lnt">77
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">import math
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">def click(val):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> e=entry.get()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=&amp;#34; &amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> try:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if val==&amp;#34;C&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> e=e[:-1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,e)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> return
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;AC&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;x\u00B2&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)**2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;x\u00B3&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)**3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;Root&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=math.sqrt(eval(e))
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val== &amp;#34;Pi&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=math.pi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif val==&amp;#34;=&amp;#34;:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ans=eval(e)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> else:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(&amp;#34;end&amp;#34;,val)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> return
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,ans)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> except(ZeroDivisionError,ValueError,SyntaxError):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.delete(0,&amp;#34;end&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> entry.insert(0,&amp;#34;Error&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root=tkinter.Tk()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.title(&amp;#34;Calculator&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.config(bg=&amp;#34;gray7&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.geometry(&amp;#34;400x500+600+100&amp;#34;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">entry=tkinter.Entry(root,font=(&amp;#34;arial&amp;#34;,25,&amp;#34;bold&amp;#34;),bg=&amp;#34;white&amp;#34;,fg=&amp;#34;black&amp;#34;,width=20,bd=10)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">entry.grid(column=0,row=0,columnspan=8)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">button_list=[&amp;#34;AC&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;x\u00B2&amp;#34;,&amp;#34;x\u00B3&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;,&amp;#34;+&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;4&amp;#34;,&amp;#34;5&amp;#34;,&amp;#34;6&amp;#34;,&amp;#34;-&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;7&amp;#34;,&amp;#34;8&amp;#34;,&amp;#34;9&amp;#34;,&amp;#34;*&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;#34;.&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;%&amp;#34;,&amp;#34;/&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ,&amp;#34;Root&amp;#34;,&amp;#34;Pi&amp;#34; ,&amp;#34;=&amp;#34;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">c=0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">r=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for i in button_list:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if i in [&amp;#34;+&amp;#34;,&amp;#34;-&amp;#34;,&amp;#34;*&amp;#34;,&amp;#34;/&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;blue&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;AC&amp;#34;,&amp;#34;C&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;red&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;.&amp;#34;,&amp;#34;%&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;gray&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> elif i in [&amp;#34;=&amp;#34;]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;green&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> else:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> back=&amp;#34;pink&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> button=tkinter.Button(root,bg=back,fg=&amp;#34;black&amp;#34;,text=i,command=lambda button=i:click(button),bd=10,width=4,height=1,font=(&amp;#34;arial&amp;#34;,15,&amp;#34;bold&amp;#34;))
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> button.grid(column=c,row=r,padx=5,pady=5)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> c+=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if c&amp;gt;3:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> r+=1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> c=0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root.mainloop()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr></description></item><item><title>Water Temp Meter with Arduino</title><link>https://hamidur0x.github.io/p/water-temp-meter/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/water-temp-meter/</guid><description>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/1.jpg" alt="Featured image of post Water Temp Meter with Arduino" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project is a water temperature meter built using an Arduino Uno, an OLED display, and a DS18B20 waterproof temperature sensor. The system accurately measures the water temperature and displays the real-time readings on the OLED screen. It’s ideal for applications like aquarium monitoring, water tanks, or DIY experiments, offering a simple and reliable way to track water temperature with digital precision.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/1.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/water-temp-meter/1_hu_9b86b3ac846ba9c7.jpg 480w, https://hamidur0x.github.io/p/water-temp-meter/1_hu_9a5279ced5273837.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/2.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/water-temp-meter/2_hu_bf08ec5824580026.jpg 480w, https://hamidur0x.github.io/p/water-temp-meter/2_hu_58a49eb4454ffdc9.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-videos">Demonstration Videos
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="1.mp4" type="video/mp4">
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="2.mp4" type="video/mp4">
+&lt;/video>
+---</description></item><item><title>প্রোগ্রামিং যাত্রা — কেন শিখবে, কীভাবে শিখবে</title><link>https://hamidur0x.github.io/p/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%AC/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%AC/</guid><description>&lt;img src="https://hamidur0x.github.io/p/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%AC/1.png" alt="Featured image of post প্রোগ্রামিং যাত্রা — কেন শিখবে, কীভাবে শিখবে" />&lt;h1 id="পরগরম-কন-কভব-এব-কথ-থক-শর-করবন">প্রোগ্রামিং: কেন, কীভাবে, এবং কোথা থেকে শুরু করবেন?
+&lt;/h1>&lt;p>আমরা ফেসবুক ব্যবহার করছি। মাথায় কি কখনো আসে না, আমাদের সামনে ছবি বা লেখাগুলো কীভাবে আসছে? অথবা আমরা কাউকে মেসেজ দিলে সেই মেসেজ তাদের কাছে কীভাবে যাচ্ছে, বা ঠিক তার কাছেই কেনো যাচ্ছে! এসব কখনো মাথায় এসেছে? যদি এসে থাকে, তবে আপনি সঠিক জায়গাতেই আছেন।
+এক কথায় বললে, এটি সম্ভব হচ্ছে &lt;strong>প্রোগ্রামিং&lt;/strong> এর মাধ্যমে।&lt;/p>
+&lt;h2 id="পরগরম-ক">প্রোগ্রামিং কি?
+&lt;/h2>&lt;p>অনেকে বলতে পারেন, &lt;em>“এটা আবার কী!”&lt;/em>
+প্রোগ্রামিং হচ্ছে কম্পিউটারকে দিয়ে কোনো কাজ সহজে করানো। কিন্তু প্রোগ্রামিং শুধু কম্পিউটারের ভেতরে সীমাবদ্ধ নয়। আমরা যে এতসব ওয়েবসাইট ব্রাউজ করি, সেগুলোও একেকটা ওয়েব প্রোগ্রাম।&lt;/p>
+&lt;h2 id="কন-পরগরম-শখব">কেনো প্রোগ্রামিং শিখবো?
+&lt;/h2>&lt;p>ধরুন, আপনি নদীতে কোথাও ঘুরতে গেছেন, হঠাৎ করে একটি দ্বীপের কাছে গিয়ে আপনার নৌকা ডুবে গেলো। এখন আপনাকে প্রয়োজন অনুযায়ী বাড়ি ফিরতে হলে এমন কিছু বানাতে হবে, যা পানিতে ভাসবে। &lt;strong>প্রোগ্রামিংও ঠিক তাই&lt;/strong> — আপনার দরকার আর সুবিধার্থে কিছু বানানো, যা আপনার দৈনন্দিন জীবনে কাজে আসবে।
+যেমন, দেখতেই পাচ্ছেন, &lt;strong>ফেসবুক&lt;/strong>। এর গুরুত্ব নতুন করে আপনাকে বুঝানোর প্রয়োজন নেই।&lt;/p>
+&lt;h2 id="কন-লযঙগয়জ-দয়-ক-কজ">কোন ল্যাঙ্গুয়েজ দিয়ে কী কাজ?
+&lt;/h2>&lt;p>বর্তমানে অনেক প্রোগ্রামিং ল্যাঙ্গুয়েজ আছে, যেমন:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>JAVA&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>PYTHON&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>KOTLIN&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SWIFT&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>C++&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>C#&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>ওয়েব ডেভেলপমেন্টের জন্য আছে:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>JAVASCRIPT&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="তহল-সব-শখত-হব">তাহলে সব শিখতে হবে?
+&lt;/h2>&lt;p>না, একদমই নয়! উদাহরণ:&lt;/p>
+&lt;ul>
+&lt;li>মোবাইল অ্যাপ তৈরি → &lt;strong>JAVA&lt;/strong>, &lt;strong>KOTLIN&lt;/strong>, &lt;strong>SWIFT&lt;/strong> (KOTLIN এখন বেশি জনপ্রিয়)&lt;/li>
+&lt;li>ওয়েবসাইট তৈরি → &lt;strong>HTML&lt;/strong>, &lt;strong>CSS&lt;/strong>, &lt;strong>JAVASCRIPT&lt;/strong> (অন্তত HTML, CSS শিখতেই হবে)&lt;/li>
+&lt;li>গেম তৈরি → &lt;strong>C++&lt;/strong>, &lt;strong>C#&lt;/strong>&lt;/li>
+&lt;li>ডেটা সায়েন্স, মেশিন লার্নিং → &lt;strong>PYTHON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="একট-মজর-উদহরণ">একটি মজার উদাহরণ
+&lt;/h2>&lt;p>মনে করুন, আপনার ওয়াইফ আপনাকে কোনো কারণে ৫০০ বার &lt;em>Sorry&lt;/em> বলতে বললো!&lt;br>
+এখন কি আপনি ৫০০ বার “Sorry” টাইপ করবেন?
+যদি প্রোগ্রামিং জানেন, আপনি নিশ্চয় ৫০০ বার টাইপ করতে যাবেন না!&lt;br>
+আপনি একটি কোড লিখবেন, যেটি আউটপুট হিসেবে ৫০০ বার “Sorry” দেখাবে।&lt;br>
+তারপর সেখান থেকে simply &lt;strong>কপি-পেস্ট&lt;/strong> করে তার রাগ ভাঙাতে পারবেন!&lt;/p>
+&lt;h2 id="পরগরম-শখবন-কভব">প্রোগ্রামিং শিখবেন কীভাবে?
+&lt;/h2>&lt;p>আজ সবার কাছে স্মার্টফোন আছে, আর ইউটিউবও নিশ্চয় আছে!&lt;br>
+আপনার পছন্দের ল্যাঙ্গুয়েজের নাম লিখে &lt;strong>YouTube&lt;/strong>-এ সার্চ দিলে অনেক টিউটোরিয়াল পেয়ে যাবেন।&lt;br>
+ভবিষ্যতে &lt;strong>HackerRank&lt;/strong> নামের একটি ওয়েবসাইটে গিয়ে প্র্যাকটিস করতে পারেন।&lt;/p>
+&lt;p>&lt;strong>শুরু হোক আজই!&lt;/strong> 🚀&lt;/p></description></item><item><title>Fun with HTML &amp; CSS Creative Web Projects</title><link>https://hamidur0x.github.io/p/fun_projects/</link><pubDate>Wed, 01 May 2024 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/fun_projects/</guid><description>&lt;img src="https://hamidur0x.github.io/p/fun_projects/gif.gif" alt="Featured image of post Fun with HTML &amp; CSS Creative Web Projects" />&lt;style>
+.collab-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
+margin-top: 20px;
+}
+.collab-grid img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.collab-grid img:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+&lt;/style>
+&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>A bunch of fun and quirky web projects made with just HTML and CSS and a little bit of JavaScript! These creations are all about experimenting with design and adding a little fun to the web.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/2.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/2_hu_99eb62d75ae53f95.png 480w, https://hamidur0x.github.io/p/fun_projects/2_hu_5d751e95a4b9718c.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/3.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/3_hu_4a27ef21940f71b2.png 480w, https://hamidur0x.github.io/p/fun_projects/3_hu_e9280e1908f04402.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/fun_projects/4.png"
+width="1920"
+height="945"
+srcset="https://hamidur0x.github.io/p/fun_projects/4_hu_b9eb573d4fe846ba.png 480w, https://hamidur0x.github.io/p/fun_projects/4_hu_3ec9e0fd9a1fd73a.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="487px"
+>&lt;/p>
+&lt;div class="collab-grid">
+&lt;img src="5.png" alt="Project 5">
+&lt;img src="6.png" alt="Project 6">
+&lt;img src="7.png" alt="Project 7">
+&lt;img src="8.png" alt="Project 8">
+&lt;img src="9.png" alt="Project 9">
+&lt;/div>
+&lt;hr>
+&lt;h2 id="website-links">Website Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/confession/" target="_blank" rel="noopener"
+>Project 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/valentine/" target="_blank" rel="noopener"
+>Project 2&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>My Built Websites</title><link>https://hamidur0x.github.io/p/web_projects/</link><pubDate>Wed, 01 May 2024 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/web_projects/</guid><description>&lt;img src="https://hamidur0x.github.io/p/web_projects/hel.png" alt="Featured image of post My Built Websites" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>Those are my websites, built using HTML,CSS and JAVASCRIPT. It showcases my skills with a clean and simple design, reflecting my journey as a web developer. This website serves as a foundation for more advanced projects in the future&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/1.png"
+width="1919"
+height="878"
+srcset="https://hamidur0x.github.io/p/web_projects/1_hu_8c8e687884c08326.png 480w, https://hamidur0x.github.io/p/web_projects/1_hu_648364fbed9982de.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="524px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/2.png"
+width="1664"
+height="868"
+srcset="https://hamidur0x.github.io/p/web_projects/2_hu_3e792dba290902eb.png 480w, https://hamidur0x.github.io/p/web_projects/2_hu_79eea67106fc5846.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/3.png"
+width="1653"
+height="855"
+srcset="https://hamidur0x.github.io/p/web_projects/3_hu_556442eb449c29b6.png 480w, https://hamidur0x.github.io/p/web_projects/3_hu_c04b8ffec640e187.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="193"
+data-flex-basis="464px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/4.png"
+width="1779"
+height="866"
+srcset="https://hamidur0x.github.io/p/web_projects/4_hu_fef46ac397d401c8.png 480w, https://hamidur0x.github.io/p/web_projects/4_hu_4b520b549951f15f.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="205"
+data-flex-basis="493px"
+>
+&lt;img src="https://hamidur0x.github.io/p/web_projects/12.png"
+width="1903"
+height="876"
+srcset="https://hamidur0x.github.io/p/web_projects/12_hu_4cf3c46809c74482.png 480w, https://hamidur0x.github.io/p/web_projects/12_hu_a44065a316b80ed9.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="521px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/web_projects/13.png"
+width="1906"
+height="873"
+srcset="https://hamidur0x.github.io/p/web_projects/13_hu_8a1269c82f9ede29.png 480w, https://hamidur0x.github.io/p/web_projects/13_hu_9632fac89984e646.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="523px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="website-links">Website Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/basic_website/" target="_blank" rel="noopener"
+>Project 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/my_website1/" target="_blank" rel="noopener"
+>Project 2&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/my_website2/" target="_blank" rel="noopener"
+>Project 3&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hamidur0x.github.io/website3/" target="_blank" rel="noopener"
+>Project 4&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Arduino controlled humanoid robot</title><link>https://hamidur0x.github.io/p/humanoid-robot/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/humanoid-robot/</guid><description>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/cover.jpg" alt="Featured image of post Arduino controlled humanoid robot" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This robot is controlled by an Arduino Uno and powered by multiple servo motors, which are managed using a PCA9685 16-Channel Servo Controller. The robot&amp;rsquo;s movement is controlled through code, which is likely stored on a computer and executed via the Arduino. The servo motors are connected to the PCA9685 Servo Controller, which in turn is connected to the Arduino Uno. The servo motors receive power from an external source, such as a battery pack, ensuring they have sufficient energy to operate efficiently.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image2.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image2_hu_a55f09ee91a28a9f.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image2_hu_2a950b9b648f1644.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image3.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image3_hu_6fac4145100b0861.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image3_hu_5b2e73712ed0aaa6.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image4.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image4_hu_79d7670b6eb16d76.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image4_hu_e8671c7219a14f10.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-videos">Demonstration Videos
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="video1.mkv" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="video2.mkv" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;hr></description></item><item><title>Radar System Using Ultrasonic Sensor and Arduino Uno</title><link>https://hamidur0x.github.io/p/radar-system/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/radar-system/</guid><description>&lt;img src="https://hamidur0x.github.io/p/radar-system/1.jpeg" alt="Featured image of post Radar System Using Ultrasonic Sensor and Arduino Uno" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project involves creating a simple radar system using an ultrasonic sensor (HC-SR04), an Arduino Uno, and a servo motor. The ultrasonic sensor is mounted on the servo motor, which rotates to scan the surroundings. It measures distances by sending ultrasonic waves and detecting their reflections, mimicking real radar functionality.The Arduino processes the sensor data and sends it to a Processing program, which visually represents the detected objects on a radar-like interface. This allows real-time visualization of obstacles within a specific range&lt;/p>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/radar-system/main.jpeg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/radar-system/main_hu_24cd546b0affdada.jpeg 480w, https://hamidur0x.github.io/p/radar-system/main_hu_87971f35382390b3.jpeg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-video">Demonstration Video
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="3.mkv" type="video/mp4">
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="2.mp4" type="video/mp4">
+Real-Time Object Detection and Visualization
+&lt;/video>
+---</description></item></channel></rss>

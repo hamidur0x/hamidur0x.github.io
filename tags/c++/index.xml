@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on Hamidur Rahman</title><link>https://hamidur0x.github.io/tags/c++/</link><description>Recent content in C++ on Hamidur Rahman</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://hamidur0x.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Water Temp Meter with Arduino</title><link>https://hamidur0x.github.io/p/water-temp-meter/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/water-temp-meter/</guid><description>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/1.jpg" alt="Featured image of post Water Temp Meter with Arduino" />&lt;hr>
+&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project is a water temperature meter built using an Arduino Uno, an OLED display, and a DS18B20 waterproof temperature sensor. The system accurately measures the water temperature and displays the real-time readings on the OLED screen. It’s ideal for applications like aquarium monitoring, water tanks, or DIY experiments, offering a simple and reliable way to track water temperature with digital precision.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/1.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/water-temp-meter/1_hu_9b86b3ac846ba9c7.jpg 480w, https://hamidur0x.github.io/p/water-temp-meter/1_hu_9a5279ced5273837.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/water-temp-meter/2.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/water-temp-meter/2_hu_bf08ec5824580026.jpg 480w, https://hamidur0x.github.io/p/water-temp-meter/2_hu_58a49eb4454ffdc9.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-videos">Demonstration Videos
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="1.mp4" type="video/mp4">
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="2.mp4" type="video/mp4">
+&lt;/video>
+---</description></item><item><title>Arduino controlled humanoid robot</title><link>https://hamidur0x.github.io/p/humanoid-robot/</link><pubDate>Thu, 01 May 2025 14:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/humanoid-robot/</guid><description>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/cover.jpg" alt="Featured image of post Arduino controlled humanoid robot" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This robot is controlled by an Arduino Uno and powered by multiple servo motors, which are managed using a PCA9685 16-Channel Servo Controller. The robot&amp;rsquo;s movement is controlled through code, which is likely stored on a computer and executed via the Arduino. The servo motors are connected to the PCA9685 Servo Controller, which in turn is connected to the Arduino Uno. The servo motors receive power from an external source, such as a battery pack, ensuring they have sufficient energy to operate efficiently.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image2.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image2_hu_a55f09ee91a28a9f.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image2_hu_2a950b9b648f1644.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image3.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image3_hu_6fac4145100b0861.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image3_hu_5b2e73712ed0aaa6.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://hamidur0x.github.io/p/humanoid-robot/image4.jpg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/humanoid-robot/image4_hu_79d7670b6eb16d76.jpg 480w, https://hamidur0x.github.io/p/humanoid-robot/image4_hu_e8671c7219a14f10.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-videos">Demonstration Videos
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="video1.mkv" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="video2.mkv" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;hr></description></item><item><title>Radar System Using Ultrasonic Sensor and Arduino Uno</title><link>https://hamidur0x.github.io/p/radar-system/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hamidur0x.github.io/p/radar-system/</guid><description>&lt;img src="https://hamidur0x.github.io/p/radar-system/1.jpeg" alt="Featured image of post Radar System Using Ultrasonic Sensor and Arduino Uno" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project involves creating a simple radar system using an ultrasonic sensor (HC-SR04), an Arduino Uno, and a servo motor. The ultrasonic sensor is mounted on the servo motor, which rotates to scan the surroundings. It measures distances by sending ultrasonic waves and detecting their reflections, mimicking real radar functionality.The Arduino processes the sensor data and sends it to a Processing program, which visually represents the detected objects on a radar-like interface. This allows real-time visualization of obstacles within a specific range&lt;/p>
+&lt;h2 id="project-images">Project Images
+&lt;/h2>&lt;p>&lt;img src="https://hamidur0x.github.io/p/radar-system/main.jpeg"
+width="4000"
+height="3000"
+srcset="https://hamidur0x.github.io/p/radar-system/main_hu_24cd546b0affdada.jpeg 480w, https://hamidur0x.github.io/p/radar-system/main_hu_87971f35382390b3.jpeg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration-video">Demonstration Video
+&lt;/h2>&lt;video controls width="600">
+&lt;source src="3.mkv" type="video/mp4">
+&lt;/video>
+&lt;video controls width="600">
+&lt;source src="2.mp4" type="video/mp4">
+Real-Time Object Detection and Visualization
+&lt;/video>
+---</description></item></channel></rss>
