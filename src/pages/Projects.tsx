@@ -1,0 +1,182 @@
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import { ExternalLink, Github, Folder } from 'lucide-react';
+
+const Projects = () => {
+  const projects = [
+    {
+      title: 'E-Commerce Platform',
+      description: 'A fully responsive e-commerce platform built with modern technologies. Features include user authentication, payment integration, and admin dashboard.',
+      tech: ['HTML', 'CSS', 'JavaScript', 'WordPress'],
+      github: '#',
+      live: '#',
+      featured: true,
+    },
+    {
+      title: 'Security Dashboard',
+      description: 'A cybersecurity monitoring dashboard that tracks vulnerabilities and provides real-time threat analysis with automated reporting.',
+      tech: ['Python', 'SQL', 'JavaScript'],
+      github: '#',
+      live: '#',
+      featured: true,
+    },
+    {
+      title: 'Portfolio Template',
+      description: 'A customizable portfolio template for developers and designers. Clean, minimal design with dark mode support.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      github: '#',
+      live: '#',
+      featured: false,
+    },
+    {
+      title: 'Data Automation Tool',
+      description: 'Python-based automation tool for data processing and analysis. Includes web scraping, data cleaning, and visualization features.',
+      tech: ['Python', 'SQL', 'API'],
+      github: '#',
+      live: '#',
+      featured: false,
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-background text-foreground scanline">
+      <Navbar />
+      
+      <main className="pt-28 pb-20">
+        {/* Hero */}
+        <section className="px-6 mb-20">
+          <div className="container mx-auto max-w-4xl">
+            <p className="text-xs text-silver mb-3">// portfolio</p>
+            <h1 className="text-4xl md:text-5xl mb-6">
+              <span className="text-silver">&gt;</span> ls ./projects
+              <span className="terminal-cursor" />
+            </h1>
+            <p className="text-muted-foreground max-w-xl">
+              <span className="text-silver">//</span> A collection of work showcasing expertise 
+              in web development, design, and cybersecurity.
+            </p>
+          </div>
+        </section>
+
+        {/* Featured Projects */}
+        <section className="px-6 mb-20">
+          <div className="container mx-auto max-w-5xl">
+            <p className="text-xs text-silver mb-6">// featured</p>
+            
+            <div className="space-y-8">
+              {projects.filter(p => p.featured).map((project, index) => (
+                <div 
+                  key={project.title}
+                  className="border border-border bg-card p-6 hover:border-silver/50 transition-all duration-300"
+                >
+                  <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border">
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <span className="text-xs text-muted-foreground ml-2">
+                      project_{String(index + 1).padStart(2, '0')}.md
+                    </span>
+                    <div className="ml-auto flex gap-3">
+                      <a 
+                        href={project.github}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View GitHub"
+                      >
+                        <Github className="w-4 h-4" />
+                      </a>
+                      <a 
+                        href={project.live}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View Live"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div className="aspect-video bg-muted border border-border" />
+                    
+                    <div>
+                      <h2 className="text-xl mb-3">{project.title}</h2>
+                      <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                        {project.description}
+                      </p>
+                      
+                      <div className="flex flex-wrap gap-2">
+                        {project.tech.map((tech) => (
+                          <span 
+                            key={tech}
+                            className="text-xs px-2 py-1 bg-muted text-muted-foreground border border-border"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Other Projects */}
+        <section className="px-6">
+          <div className="container mx-auto max-w-5xl">
+            <p className="text-xs text-silver mb-6">// other projects</p>
+            
+            <div className="grid md:grid-cols-2 gap-4">
+              {projects.filter(p => !p.featured).map((project, index) => (
+                <div 
+                  key={project.title}
+                  className="group p-6 border border-border bg-card hover:border-silver/50 transition-all duration-300 hover-lift"
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <Folder className="w-5 h-5 text-silver" />
+                    <div className="flex gap-3">
+                      <a 
+                        href={project.github}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View GitHub"
+                      >
+                        <Github className="w-4 h-4" />
+                      </a>
+                      <a 
+                        href={project.live}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View Live"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <h3 className="mb-2">{project.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                    {project.description}
+                  </p>
+
+                  <div className="flex flex-wrap gap-2">
+                    {project.tech.map((tech) => (
+                      <span 
+                        key={tech}
+                        className="text-xs text-muted-foreground"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Projects;
