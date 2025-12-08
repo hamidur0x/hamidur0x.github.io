@@ -26,22 +26,24 @@ const About = () => {
           </div>
         </section>
 
+        {/* Full Image Section */}
+        <section className="px-6 mb-20">
+          <div className="container mx-auto max-w-5xl">
+            <div className="w-full overflow-hidden border border-border bg-card">
+              <img 
+                src={ProfileImage}
+                alt="Profile"
+                className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Bio Section */}
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-5xl">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-
-              {/* Profile Image */}
-              <div className="flex justify-center md:justify-start">
-                <div className="relative w-48 h-48 rounded-full overflow-hidden border border-border bg-card">
-                  <img 
-                    src={ProfileImage} 
-                    alt="Profile" 
-                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
-                  />
-                </div>
-              </div>
-
+            <div className="grid md:grid-cols-2 gap-12">
+              
               {/* Profile Card */}
               <div className="border border-border p-6 bg-card">
                 <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border">
@@ -58,7 +60,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-silver" />
-                    <span className="text-muted-foreground">"Job type ":</span>
+                    <span className="text-muted-foreground">"Job Type":</span>
                     <span>"Remote"</span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -69,24 +71,19 @@ const About = () => {
                 </div>
               </div>
 
-            </div>
-          </div>
-        </section>
+              {/* Text */}
+              <div>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  <span className="text-silver">//</span> I'm a passionate web designer who loves 
+                  building things.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
+                  digital experiences. I believe in clean code, intuitive design, 
+                  and continuous learning.
+                </p>
+              </div>
 
-        {/* Text Section */}
-        <section className="px-6 mb-20">
-          <div className="container mx-auto max-w-5xl grid md:grid-cols-2 gap-12">
-            <div></div>
-            <div>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                <span className="text-silver">//</span> I'm a passionate web designer who loves 
-                building things.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
-                digital experiences. I believe in clean code, intuitive design, 
-                and continuous learning.
-              </p>
             </div>
           </div>
         </section>
