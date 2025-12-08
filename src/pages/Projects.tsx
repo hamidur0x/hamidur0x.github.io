@@ -3,9 +3,6 @@ import Footer from '@/components/Footer';
 import { ExternalLink, Github, Folder } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// Import project images
-import HackBookImage from '@/components/hackbook.png';
-
 const Projects = () => {
   const projects = [
     {
@@ -15,39 +12,35 @@ const Projects = () => {
       github: 'https://github.com/HackBooks/hackbooks.github.io.git',
       live: 'https://hackbooks.github.io/',
       featured: true,
-      image: HackBookImage,
     },
     {
       title: 'Chintachokro Site Development',
-      description: 'A fully responsive website built with WordPress for a local business, featuring custom themes and plugins to enhance user experience.',
+      description: 'A fully responsive website built with wordpress for a local business, featuring custom themes and plugins to enhance user experience.',
       tech: ['WordPress'],
       live: 'https://chintachokro.com/',
       featured: true,
-      // image: ChintachokroImage,
     },
     {
       title: 'Thinkspirestudio Site Development',
-      description: 'A fully responsive website built with WordPress for a local business, featuring custom themes and plugins to enhance user experience.',
+      description: 'A fully responsive website built with wordpress for a local business, featuring custom themes and plugins to enhance user experience.',
       tech: ['WordPress'],
       live: 'https://thinkspirestudio.com/',
       featured: true,
-      // image: ThinkspirestudioImage,
     },
     {
-      title: 'Asset Skills Competition Calculator',
+      title: 'Asset Skills Competition Calculator making',
       description: 'This code was developed as part of the Asset Skills Competition held at Munshigonj Polytechnic Institute.',
       tech: ['Python'],
       github: 'https://github.com/hamidur0x/Rsset-skills-competition-calculator.git',
       live: '#',
       featured: false,
-      // image: AssetCalculatorImage,
     },
   ];
 
   return (
     <div className="min-h-screen bg-background text-foreground scanline">
       <Navbar />
-
+      
       <main className="pt-28 pb-20">
         {/* Hero */}
         <section className="px-6 mb-20">
@@ -67,10 +60,10 @@ const Projects = () => {
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-5xl">
             <p className="text-xs text-silver mb-6">// featured</p>
-
+            
             <div className="space-y-8">
               {projects.filter(p => p.featured).map((project, index) => (
-                <div
+                <div 
                   key={project.title}
                   className="border border-border bg-card p-6 hover:border-silver/50 transition-all duration-300"
                 >
@@ -82,44 +75,35 @@ const Projects = () => {
                       project_{String(index + 1).padStart(2, '0')}.md
                     </span>
                     <div className="ml-auto flex gap-3">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          className="text-muted-foreground hover:text-foreground transition-colors"
-                          aria-label="View GitHub"
-                        >
-                          <Github className="w-4 h-4" />
-                        </a>
-                      )}
-                      {project.live && project.live !== '#' && (
-                        <a
-                          href={project.live}
-                          className="text-muted-foreground hover:text-foreground transition-colors"
-                          aria-label="View Live"
-                        >
-                          <ExternalLink className="w-4 h-4" />
-                        </a>
-                      )}
+                      <a 
+                        href={project.github}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View GitHub"
+                      >
+                        <Github className="w-4 h-4" />
+                      </a>
+                      <a 
+                        href={project.live}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View Live"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
                     </div>
                   </div>
-
+                  
                   <div className="grid md:grid-cols-2 gap-8">
-                    {/* Project Image */}
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-full object-cover border border-border rounded aspect-video"
-                    />
-
+                    <div className="aspect-video bg-muted border border-border" />
+                    
                     <div>
                       <h2 className="text-xl mb-3">{project.title}</h2>
                       <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
                         {project.description}
                       </p>
-
+                      
                       <div className="flex flex-wrap gap-2">
                         {project.tech.map((tech) => (
-                          <span
+                          <span 
                             key={tech}
                             className="text-xs px-2 py-1 bg-muted text-muted-foreground border border-border"
                           >
@@ -139,42 +123,32 @@ const Projects = () => {
         <section className="px-6">
           <div className="container mx-auto max-w-5xl">
             <p className="text-xs text-silver mb-6">// other projects</p>
-
+            
             <div className="grid md:grid-cols-2 gap-4">
               {projects.filter(p => !p.featured).map((project, index) => (
-                <div
+                <div 
                   key={project.title}
                   className="group p-6 border border-border bg-card hover:border-silver/50 transition-all duration-300 hover-lift"
                 >
                   <div className="flex items-start justify-between mb-4">
                     <Folder className="w-5 h-5 text-silver" />
                     <div className="flex gap-3">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          className="text-muted-foreground hover:text-foreground transition-colors"
-                          aria-label="View GitHub"
-                        >
-                          <Github className="w-4 h-4" />
-                        </a>
-                      )}
-                      {project.live && project.live !== '#' && (
-                        <a
-                          href={project.live}
-                          className="text-muted-foreground hover:text-foreground transition-colors"
-                          aria-label="View Live"
-                        >
-                          <ExternalLink className="w-4 h-4" />
-                        </a>
-                      )}
+                      <a 
+                        href={project.github}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View GitHub"
+                      >
+                        <Github className="w-4 h-4" />
+                      </a>
+                      <a 
+                        href={project.live}
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label="View Live"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
                     </div>
                   </div>
-
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover mb-4 border border-border rounded"
-                  />
 
                   <h3 className="mb-2">{project.title}</h3>
                   <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
@@ -183,7 +157,7 @@ const Projects = () => {
 
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech) => (
-                      <span
+                      <span 
                         key={tech}
                         className="text-xs text-muted-foreground"
                       >
