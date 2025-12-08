@@ -29,9 +29,10 @@ const Footer = () => {
           <div>
             <p className="text-xs text-silver mb-4">connect</p>
             <div className="space-y-2">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">github</a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">linkedin</a>
-              <a href="mailto:your@email.com" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">email</a>
+              <a href="https://github.com/hamidur0x" target="_blank" rel="noopener noreferrer" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">github</a>
+              <a href="https://www.linkedin.com/in/hamidur0x/" target="_blank" rel="noopener noreferrer" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">linkedin</a>
+              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hamidursohan10.@gmail.com" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">email</a>
+              <a href="https://www.facebook.com/hamidur0x" className="block text-muted-foreground hover:text-foreground transition-colors text-sm">facebook</a>
             </div>
           </div>
         </div>
