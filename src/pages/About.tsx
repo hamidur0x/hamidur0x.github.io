@@ -58,8 +58,8 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-silver" />
-                    <span className="text-muted-foreground">"location":</span>
-                    <span>"Munshiganj Bangladesh"</span>
+                    <span className="text-muted-foreground">"Job type ":</span>
+                    <span>"Remote"</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Briefcase className="w-4 h-4 text-silver" />
