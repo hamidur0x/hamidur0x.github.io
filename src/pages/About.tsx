@@ -4,9 +4,8 @@ import { User, MapPin, Briefcase } from 'lucide-react';
 
 const About = () => {
   const experiences = [
-    { year: '2023', title: 'Senior Web Developer', company: 'Your Company' },
-    { year: '2021', title: 'Web Designer', company: 'Previous Company' },
-    { year: '2019', title: 'Junior Developer', company: 'First Company' },
+    { year: '2025', title: 'Lead Technical Engineer', company: 'DomifyHost' },
+    { year: '2024', title: 'Technical Director', company: 'চিন্তাচক্র - Chintachokro' },
   ];
 
   return (
