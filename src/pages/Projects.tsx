@@ -4,10 +4,7 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 // Import project images
-import HackBookImage from '@/assets/hackbook.png';
-import ChintachokroImage from '@/assets/chintachokro.png';
-import ThinkspirestudioImage from '@/assets/thinkspirestudio.png';
-import AssetCalculatorImage from '@/assets/asset-calculator.png';
+import HackBookImage from '@/components/hackbook.png';
 
 const Projects = () => {
   const projects = [
