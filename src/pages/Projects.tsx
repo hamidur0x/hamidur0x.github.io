@@ -56,7 +56,7 @@ const Projects = () => {
         {/* Hero */}
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-4xl">
-            <p className="text-xs text-silver mb-3">// projects</p>
+            <p className="text-xs text-silver mb-3">// portfolio</p>
             <h1 className="text-4xl md:text-5xl mb-6">
               <span className="text-silver">&gt;</span> ls ./projects
               <span className="terminal-cursor" />
