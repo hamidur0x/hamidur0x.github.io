@@ -76,7 +76,7 @@ const About = () => {
                 {/* Description Text */}
                 <div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    <span className="text-silver">//</span> I'm a passionate web designer who loves 
+                    <span className="text-silver">//</span> I'm a passionate developer who loves 
                     building things.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
