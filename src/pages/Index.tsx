@@ -19,14 +19,14 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium mb-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-              <span className="text-gradient">Web Designer</span>
+              <span className="text-gradient">Web Developer</span>
               <br />
-              <span className="text-muted-foreground">&amp; Developer</span>
+              <span className="text-muted-foreground">&amp; Tech Enthusiast</span>
             </h1>
             
             <p className="text-muted-foreground max-w-xl mb-10 leading-relaxed animate-fade-up" style={{ animationDelay: '0.3s' }}>
-              <span className="text-silver">//</span> Specializing in Python, Web Development, 
-              and Cybersecurity. Building secure, elegant, and user-focused digital experiences.
+              <span className="text-silver">//</span> Specialising Web & Mobile Developer | Cybersecurity Enthusiast
+Creating secure, elegant, user-focused digital experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: '0.4s' }}>
@@ -70,9 +70,8 @@ const Index = () => {
                   <span className="text-silver">&gt;</span> whoami
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Developer with expertise in Python, HTML, CSS, JavaScript, 
-                  WordPress, SQL, and Cybersecurity. Creating secure and 
-                  elegant digital solutions.
+                  Full-Stack Developer & Cybersecurity Enthusiast
+Specialising in web and mobile applications using Python, HTML, CSS, JavaScript, WordPress, Flutter, Dart, and SQL. Creating secure, elegant, and user-friendly digital solutions.
                 </p>
                 <Link 
                   to="/about"
@@ -90,8 +89,8 @@ const Index = () => {
                   <span className="text-xs text-muted-foreground ml-2">stats.sh</span>
                 </div>
                 <div className="space-y-3 text-sm">
-                  <p><span className="text-silver">experience:</span> 5+ years</p>
-                  <p><span className="text-silver">projects:</span> 50+</p>
+                  <p><span className="text-silver">experience:</span> 4+ years</p>
+                  <p><span className="text-silver">projects:</span> 20+</p>
                   <p><span className="text-silver">status:</span> <span className="text-foreground">available</span></p>
                 </div>
               </div>
@@ -110,7 +109,7 @@ const Index = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {['Python', 'JavaScript', 'WordPress', 'SQL', 'Cyber Security', 'Web Design'].map((skill, index) => (
+              {['Python', 'WordPress', 'Cyber Security', 'JavaScript', 'Dart', 'Flutter', 'SQL',' Web Design'].map((skill, index) => (
                 <div 
                   key={skill}
                   className="group p-6 border border-border bg-card hover:border-silver/50 transition-all duration-300 hover-lift"
