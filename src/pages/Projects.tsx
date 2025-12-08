@@ -5,35 +5,32 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A fully responsive e-commerce platform built with modern technologies. Features include user authentication, payment integration, and admin dashboard.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'WordPress'],
-      github: '#',
-      live: '#',
-      featured: true,
-    },
-    {
-      title: 'Security Dashboard',
-      description: 'A cybersecurity monitoring dashboard that tracks vulnerabilities and provides real-time threat analysis with automated reporting.',
-      tech: ['Python', 'SQL', 'JavaScript'],
-      github: '#',
-      live: '#',
-      featured: true,
-    },
-    {
-      title: 'Portfolio Template',
-      description: 'A customizable portfolio template for developers and designers. Clean, minimal design with dark mode support.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      github: '#',
-      live: '#',
+      title: 'HackBook',
+      description: 'Search, browse, and add security tools --- all in one place. HackBook is designed for ethical hackers, CTF players, cybersecurity learners, and professionals who want a fast, organized way to discover and manage security tools.',
+      tech: ['HTML', 'CSS', 'JAVASCRIPT'],
+      github: 'https://github.com/HackBooks/hackbooks.github.io.git',
+      live: 'https://hackbooks.github.io/',
       featured: false,
     },
     {
-      title: 'Data Automation Tool',
-      description: 'Python-based automation tool for data processing and analysis. Includes web scraping, data cleaning, and visualization features.',
-      tech: ['Python', 'SQL', 'API'],
-      github: '#',
-      live: '#',
+      title: 'Chintachokro Site Development',
+      description: 'A fully responsive website built with wordpress for a local business, featuring custom themes and plugins to enhance user experience.',
+      tech: ['WordPress'],
+      live: 'https://chintachokro.com/',
+      featured: true,
+    },
+    {
+      title: 'Thinkspirestudio Site Development',
+      description: 'A fully responsive website built with wordpress for a local business, featuring custom themes and plugins to enhance user experience.',
+      tech: ['WordPress'],
+      live: 'https://thinkspirestudio.com/',
+      featured: true,
+    },
+    {
+      title: 'Asset Skills Competition Calculator making',
+      description: 'This code was developed as part of the Asset Skills Competition held at Munshigonj Polytechnic Institute.',
+      tech: ['Python'],
+      github: 'https://github.com/hamidur0x/Rsset-skills-competition-calculator.git',
       featured: false,
     },
   ];
@@ -52,8 +49,7 @@ const Projects = () => {
               <span className="terminal-cursor" />
             </h1>
             <p className="text-muted-foreground max-w-xl">
-              <span className="text-silver">//</span> A collection of work showcasing expertise 
-              in web development, design, and cybersecurity.
+              <span className="text-silver">//</span> A collection of work showcasing expertise.
             </p>
           </div>
         </section>
