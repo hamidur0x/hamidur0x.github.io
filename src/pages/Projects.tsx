@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import HackBookImage from '@/assets/hackbook.png';
 import ChintachokroImage from '@/assets/chintachokro.png';
 import ThinkspirestudioImage from '@/assets/thinkspirestudio.png';
-import AssetCalculatorImage from '@/assets/asset-calculator.png';
 
 const Projects = () => {
   const projects = [
@@ -43,7 +42,6 @@ const Projects = () => {
       github: 'https://github.com/hamidur0x/Rsset-skills-competition-calculator.git',
       live: '#',
       featured: false,
-      image: AssetCalculatorImage,
     },
   ];
 
