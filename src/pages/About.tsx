@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background text-foreground scanline">
       <Navbar />
-      
+
       <main className="pt-28 pb-20">
         {/* Hero */}
         <section className="px-6 mb-20">
@@ -26,64 +26,67 @@ const About = () => {
           </div>
         </section>
 
-        {/* Full Image Section */}
+        {/* Two Column Section */}
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-5xl">
-            <div className="w-full overflow-hidden border border-border bg-card">
-              <img 
-                src={ProfileImage}
-                alt="Profile"
-                className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-300"
-              />
-            </div>
-          </div>
-        </section>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
 
-        {/* Bio Section */}
-        <section className="px-6 mb-20">
-          <div className="container mx-auto max-w-5xl">
-            <div className="grid md:grid-cols-2 gap-12">
-              
-              {/* Profile Card */}
-              <div className="border border-border p-6 bg-card">
-                <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border">
-                  <div className="w-2 h-2 rounded-full bg-muted-foreground" />
-                  <div className="w-2 h-2 rounded-full bg-muted-foreground" />
-                  <div className="w-2 h-2 rounded-full bg-muted-foreground" />
-                  <span className="text-xs text-muted-foreground ml-2">profile.json</span>
-                </div>
-                <div className="space-y-4 text-sm">
-                  <div className="flex items-center gap-3">
-                    <User className="w-4 h-4 text-silver" />
-                    <span className="text-muted-foreground">"role":</span>
-                    <span>"Developer & Tech Enthusiast"</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <MapPin className="w-4 h-4 text-silver" />
-                    <span className="text-muted-foreground">"Job Type":</span>
-                    <span>"Remote"</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Briefcase className="w-4 h-4 text-silver" />
-                    <span className="text-muted-foreground">"status":</span>
-                    <span className="text-foreground">"available"</span>
-                  </div>
-                </div>
+              {/* Left: Image */}
+              <div className="w-full overflow-hidden border border-border bg-card">
+                <img 
+                  src={ProfileImage} 
+                  alt="Profile" 
+                  className="w-full h-[400px] object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                />
               </div>
 
-              {/* Text */}
-              <div>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  <span className="text-silver">//</span> I'm a passionate web designer who loves 
-                  building things.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
-                  digital experiences. I believe in clean code, intuitive design, 
-                  and continuous learning.
-                </p>
-              </div>
+              {/* Right: Profile Card + Text */}
+              <div className="space-y-6">
 
+                {/* Profile Card */}
+                <div className="border border-border p-6 bg-card">
+                  <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border">
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                    <span className="text-xs text-muted-foreground ml-2">profile.json</span>
+                  </div>
+
+                  <div className="space-y-4 text-sm">
+                    <div className="flex items-center gap-3">
+                      <User className="w-4 h-4 text-silver" />
+                      <span className="text-muted-foreground">"role":</span>
+                      <span>"Developer & Tech Enthusiast"</span>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <MapPin className="w-4 h-4 text-silver" />
+                      <span className="text-muted-foreground">"job type":</span>
+                      <span>"Remote"</span>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <Briefcase className="w-4 h-4 text-silver" />
+                      <span className="text-muted-foreground">"status":</span>
+                      <span className="text-foreground">"available"</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Description Text */}
+                <div>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    <span className="text-silver">//</span> I'm a passionate web designer who loves 
+                    building things.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
+                    digital experiences. I believe in clean code, intuitive design, 
+                    and continuous learning.
+                  </p>
+                </div>
+
+              </div>
             </div>
           </div>
         </section>
