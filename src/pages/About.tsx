@@ -56,13 +56,13 @@ const About = () => {
                     <div className="flex items-center gap-3">
                       <User className="w-4 h-4 text-silver" />
                       <span className="text-muted-foreground">"role":</span>
-                      <span>"Developer & Tech Enthusiast"</span>
+                      <span>"developer & tech enthusiast"</span>
                     </div>
 
                     <div className="flex items-center gap-3">
                       <MapPin className="w-4 h-4 text-silver" />
                       <span className="text-muted-foreground">"job type":</span>
-                      <span>"Remote"</span>
+                      <span>"remote"</span>
                     </div>
 
                     <div className="flex items-center gap-3">
