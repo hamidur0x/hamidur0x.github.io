@@ -23,9 +23,9 @@ const Contact = () => {
   };
 
   const socials = [
-    { icon: Mail, label: 'email', value: 'hamidursohan10', href: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hamidursohan10.@gmail.com' },
-    { icon: Github, label: 'github', value: 'github.com/hamidur0c', href: 'https://github.com/hamidur0x' },
-    { icon: Linkedin, label: 'linkedin', value: 'linkedin.com/in/hamidur0x', href: 'https://linkedin.com/hamidur0x' },
+    { icon: Mail, label: 'email', value: 'hamidursohan10@gmail.com', href: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hamidursohan10.@gmail.com' },
+    { icon: Github, label: 'github', value: 'github.com/hamidur0x', href: 'https://github.com/hamidur0x' },
+    { icon: Linkedin, label: 'linkedin', value: 'linkedin.com/in/hamidur0x', href: 'https://www.linkedin.com/in/hamidur0x/' },
   ];
 
   return (
