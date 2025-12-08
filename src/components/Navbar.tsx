@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 text-foreground">
             <Terminal className="w-4 h-4 text-silver" />
-            <span className="text-sm">~/portfolio</span>
+            <span className="text-sm">~/Hamidur Rahman</span>
           </Link>
 
           {/* Desktop Navigation */}
