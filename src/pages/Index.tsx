@@ -26,7 +26,7 @@ const Index = () => {
             
             <p className="text-muted-foreground max-w-xl mb-10 leading-relaxed animate-fade-up" style={{ animationDelay: '0.3s' }}>
               <span className="text-silver">//</span> Specialist in Web & App Development | Cybersecurity Enthusiast
-              Creating secure, elegant, user-focused digital experiences.
+                Creating secure, elegant, user-focused digital experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: '0.4s' }}>
