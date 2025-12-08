@@ -23,7 +23,7 @@ const Projects = () => {
       tech: ['WordPress'],
       live: 'https://chintachokro.com/',
       featured: true,
-      image: ChintachokroImage,
+      // image: ChintachokroImage,
     },
     {
       title: 'Thinkspirestudio Site Development',
@@ -31,7 +31,7 @@ const Projects = () => {
       tech: ['WordPress'],
       live: 'https://thinkspirestudio.com/',
       featured: true,
-      image: ThinkspirestudioImage,
+      // image: ThinkspirestudioImage,
     },
     {
       title: 'Asset Skills Competition Calculator',
@@ -40,7 +40,7 @@ const Projects = () => {
       github: 'https://github.com/hamidur0x/Rsset-skills-competition-calculator.git',
       live: '#',
       featured: false,
-      image: AssetCalculatorImage,
+      // image: AssetCalculatorImage,
     },
   ];
 
