@@ -17,7 +17,7 @@ const Contact = () => {
     e.preventDefault();
     toast({
       title: "Message sent",
-      description: "Thank you for reaching out. I'll get back to you soon.",
+      description: "There seems to be an issue. I will get back to you shortly.",
     });
     setFormData({ name: '', email: '', message: '' });
   };
