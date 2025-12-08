@@ -40,12 +40,12 @@ const About = () => {
                   <div className="flex items-center gap-3">
                     <User className="w-4 h-4 text-silver" />
                     <span className="text-muted-foreground">"role":</span>
-                    <span>"Web Designer & Developer"</span>
+                    <span>"Developer & Tech Enthusiast"</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-silver" />
                     <span className="text-muted-foreground">"location":</span>
-                    <span>"Your Location"</span>
+                    <span>"Munshiganj Bangladesh"</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Briefcase className="w-4 h-4 text-silver" />
@@ -58,8 +58,7 @@ const About = () => {
               <div>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   <span className="text-silver">//</span> I'm a passionate web designer who loves 
-                  building things for the web. With expertise in Python, HTML, CSS, 
-                  JavaScript, WordPress, SQL, and Cyber Security.
+                  building things.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
@@ -84,10 +83,12 @@ const About = () => {
             <div className="space-y-6">
               {[
                 { skill: 'Python', level: 90 },
-                { skill: 'JavaScript', level: 85 },
+                { skill: 'WordPress', level: 95 },
+                { skill: 'JavaScript', level: 50 },
                 { skill: 'HTML/CSS', level: 95 },
-                { skill: 'WordPress', level: 88 },
-                { skill: 'SQL', level: 80 },
+                { skill: 'Dart', level: 80 },
+                { skill: 'Flutter', level: 80 },                
+                { skill: 'SQL', level: 70 },
                 { skill: 'Cyber Security', level: 75 },
               ].map((item) => (
                 <div key={item.skill} className="space-y-2">
