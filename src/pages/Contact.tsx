@@ -16,7 +16,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message sent",
+      title: "Failed to send message",
       description: "There seems to be an issue. I will get back to you shortly.",
     });
     setFormData({ name: '', email: '', message: '' });
