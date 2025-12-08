@@ -32,7 +32,7 @@ const Projects = () => {
       description: 'A fully responsive website built with WordPress for a local business, featuring custom themes and plugins to enhance user experience.',
       tech: ['WordPress'],
       live: 'https://thinkspirestudio.com/',
-      featured: true,
+      featured: false,
       image: ThinkspirestudioImage,
     },
     {
