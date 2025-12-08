@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { User, MapPin, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ProfileImage from '@/assets/me.png';
 
 const About = () => {
   const experiences = [
@@ -28,7 +29,20 @@ const About = () => {
         {/* Bio Section */}
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-5xl">
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+
+              {/* Profile Image */}
+              <div className="flex justify-center md:justify-start">
+                <div className="relative w-48 h-48 rounded-full overflow-hidden border border-border bg-card">
+                  <img 
+                    src={ProfileImage} 
+                    alt="Profile" 
+                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                  />
+                </div>
+              </div>
+
+              {/* Profile Card */}
               <div className="border border-border p-6 bg-card">
                 <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border">
                   <div className="w-2 h-2 rounded-full bg-muted-foreground" />
@@ -54,18 +68,25 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              
-              <div>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  <span className="text-silver">//</span> I'm a passionate web designer who loves 
-                  building things.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
-                  digital experiences. I believe in clean code, intuitive design, 
-                  and continuous learning.
-                </p>
-              </div>
+
+            </div>
+          </div>
+        </section>
+
+        {/* Text Section */}
+        <section className="px-6 mb-20">
+          <div className="container mx-auto max-w-5xl grid md:grid-cols-2 gap-12">
+            <div></div>
+            <div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                <span className="text-silver">//</span> I'm a passionate web designer who loves 
+                building things.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                <span className="text-silver">//</span> I create secure, elegant, and user-friendly 
+                digital experiences. I believe in clean code, intuitive design, 
+                and continuous learning.
+              </p>
             </div>
           </div>
         </section>
