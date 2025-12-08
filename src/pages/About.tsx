@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { User, MapPin, Briefcase } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const experiences = [
