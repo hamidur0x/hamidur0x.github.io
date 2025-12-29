@@ -6,6 +6,7 @@ import ProfileImage from '@/assets/me.png';
 
 const About = () => {
   const experiences = [
+    { year: '2025', title: 'Technical Director', company: 'Thinkspire Studio' },
     { year: '2025', title: 'Lead Technical Engineer', company: 'DomifyHost' },
     { year: '2024', title: 'Technical Director', company: 'চিন্তাচক্র - Chintachokro' },
   ];
