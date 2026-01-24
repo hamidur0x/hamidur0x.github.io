@@ -8,10 +8,19 @@ import HackBookImage from '@/assets/hackbook.png';
 import ChintachokroImage from '@/assets/chintachokro.png';
 import ThinkspirestudioImage from '@/assets/thinkspirestudio.png';
 import AssetCalculatorImage from '@/assets/asset-calculator.png';
+import TanjimtanimImage from '@/assets/tanjimtanim.png';
 
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'WordPress Website for Tanjim Tanim',
+      description: 'Created a clean, responsive WordPress site showcasing the writer’s work, blog, and portfolio, with a design focused on readability and user engagement.',
+      tech: ['WordPress'],
+      live: 'https://tanjimtanim.com/',
+      featured: true,
+      image: TanjimtanimImage,
+    },
     {
       title: 'HackBook',
       description: 'Search, browse, and add security tools --- all in one place. HackBook is designed for ethical hackers, CTF players, cybersecurity learners, and professionals who want a fast, organized way to discover and manage security tools.',
@@ -26,7 +35,7 @@ const Projects = () => {
       description: 'A fully responsive website built with WordPress for a local business, featuring custom themes and plugins to enhance user experience.',
       tech: ['WordPress'],
       live: 'https://chintachokro.com/',
-      featured: true,
+      featured: false,
       image: ChintachokroImage,
     },
     {
