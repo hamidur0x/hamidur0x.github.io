@@ -89,7 +89,7 @@ Specialising in web and mobile applications using Python, HTML, CSS, JavaScript,
                   <span className="text-xs text-muted-foreground ml-2">stats.sh</span>
                 </div>
                 <div className="space-y-3 text-sm">
-                  <p><span className="text-silver">experience:</span> 4+ years</p>
+                  <p><span className="text-silver">experience:</span> 2+ years</p>
                   <p><span className="text-silver">projects:</span> 20+</p>
                   <p><span className="text-silver">status:</span> <span className="text-foreground">available</span></p>
                 </div>
