@@ -8,7 +8,7 @@ import HackBookImage from '@/assets/hackbook.png';
 import ChintachokroImage from '@/assets/chintachokro.png';
 import ThinkspirestudioImage from '@/assets/thinkspirestudio.png';
 import AssetCalculatorImage from '@/assets/asset-calculator.png';
-import TanjimtanimImage from '@/assets/tanjimtanim.png';
+import TanjimtanimImage from '@/assets/tanjim-tanim.png';
 
 
 const Projects = () => {
