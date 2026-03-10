@@ -3,7 +3,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Mail, Github, Linkedin, Send, ArrowUpRight } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -12,14 +11,52 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Failed to send message",
-      description: "There seems to be an issue. I will get back to you shortly.",
-    });
-    setFormData({ name: '', email: '', message: '' });
+    setIsLoading(true);
+
+    try {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${import.meta.env.VITE_RESEND_API_KEY}`,
+        },
+        body: JSON.stringify({
+          from: 'onboarding@resend.dev',
+          to: 'hamidursohan10@gmail.com',
+          subject: `New message from ${formData.name}`,
+          html: `
+            <div style="font-family: monospace; padding: 24px; background: #0a0a0a; color: #e0e0e0; border: 1px solid #333;">
+              <h2 style="color: #fff; margin-bottom: 20px;">&gt; new_message_received()</h2>
+              <p><span style="color: #888;">name:</span> ${formData.name}</p>
+              <p><span style="color: #888;">email:</span> <a href="mailto:${formData.email}" style="color: #aaa;">${formData.email}</a></p>
+              <p><span style="color: #888;">message:</span></p>
+              <p style="border-left: 2px solid #444; padding-left: 12px; margin-left: 8px;">${formData.message}</p>
+            </div>
+          `,
+        }),
+      });
+
+      if (res.ok) {
+        toast({
+          title: "Message sent!",
+          description: "I'll get back to you within 24 hours.",
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed');
+      }
+    } catch {
+      toast({
+        title: "Failed to send message",
+        description: "Please try again or email me directly.",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const socials = [
@@ -33,7 +70,6 @@ const Contact = () => {
       <Navbar />
       
       <main className="pt-28 pb-20">
-        {/* Hero */}
         <section className="px-6 mb-20">
           <div className="container mx-auto max-w-4xl">
             <p className="text-xs text-silver mb-3">// contact</p>
@@ -48,14 +84,11 @@ const Contact = () => {
           </div>
         </section>
 
-        {/* Contact Content */}
         <section className="px-6">
           <div className="container mx-auto max-w-5xl">
             <div className="grid md:grid-cols-2 gap-12">
-              {/* Social Links */}
               <div>
                 <p className="text-xs text-silver mb-6">// connect</p>
-                
                 <div className="space-y-4">
                   {socials.map((social) => (
                     <a
@@ -76,7 +109,6 @@ const Contact = () => {
                     </a>
                   ))}
                 </div>
-
                 <div className="mt-8 p-4 border border-border bg-card">
                   <p className="text-xs text-muted-foreground">
                     <span className="text-silver">//</span> Response time: ~24 hours
@@ -84,7 +116,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Contact Form */}
               <div>
                 <div className="border border-border bg-card">
                   <div className="flex items-center gap-2 p-4 border-b border-border">
@@ -139,10 +170,11 @@ const Contact = () => {
 
                     <button
                       type="submit"
-                      className="w-full flex items-center justify-center gap-3 bg-foreground text-background py-3 text-sm font-medium hover:glow-subtle transition-all duration-300"
+                      disabled={isLoading}
+                      className="w-full flex items-center justify-center gap-3 bg-foreground text-background py-3 text-sm font-medium hover:glow-subtle transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       <span className="text-silver-dark">&gt;</span>
-                      send_message()
+                      {isLoading ? 'sending...' : 'send_message()'}
                       <Send className="w-4 h-4" />
                     </button>
                   </form>
